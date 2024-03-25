@@ -1,0 +1,38 @@
+{
+  "provider": {
+    "name": "Tasks"
+  },
+  "consumer": {
+    "name": "BasicConsumer"
+  },
+  "interactions": [
+    {
+      "description": "Retrieve task 1",
+      "request": {
+        "method": "GET",
+        "path": "/todo/1"
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "id": 1,
+          "task": "pact",
+          "dueDate": "2024-01-01"
+        }
+      },
+      "providerStates": [
+        {
+          "name": "There's a pact with id 1"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    },
+    "pact-jvm": {
+      "version": "4.1.7"
+    }
+  }
+}

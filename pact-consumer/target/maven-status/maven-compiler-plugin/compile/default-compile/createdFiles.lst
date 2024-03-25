@@ -1,0 +1,5 @@
+br\ce\wcaquino\consumer\barriga\service\BarrigaConsumer.class
+br\ce\wcaquino\consumer\barriga\desktop\BarrigaDesktop.class
+br\ce\wcaquino\consumer\tasks\model\Task.class
+br\ce\wcaquino\consumer\tasks\service\TasksConsumer.class
+br\ce\wcaquino\consumer\utils\RequestHelper.class
