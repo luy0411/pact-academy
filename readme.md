@@ -1,7 +1,8 @@
 # Exploring Pact.io for Contract Testing in Spring Boot Project
 
 ### Udemy Course
-https://www.udemy.com/course/testes-de-contrato-em-java-com-pact/
+https://www.udemy.com/course/testes-de-contrato-em-java-com-pact
+
 https://github.com/wcaquinocursos
 
 ## Overview
